@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
             }
 
-            obstacle.style.bottom = obstacleBottom - 5 + "px";
+            obstacle.style.bottom = obstacleBottom - 2 + "px"; // Adjust the decrement value to slow down the descent
 
             if (obstacleBottom <= 0) {
                 obstacle.style.bottom = "100vh";
